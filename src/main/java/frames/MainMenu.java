@@ -126,7 +126,6 @@ public class MainMenu extends javax.swing.JFrame {
     }//GEN-LAST:event_jListarButtonActionPerformed
 
     private void jBorrarButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBorrarButtonActionPerformed
-
         jBorrarButton.addActionListener(e -> EmployeeController.bbdd.borrarEmpleado());
     }//GEN-LAST:event_jBorrarButtonActionPerformed
 
@@ -135,7 +134,6 @@ public class MainMenu extends javax.swing.JFrame {
     }//GEN-LAST:event_jSalirButtonActionPerformed
 
     private void jIngresarButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jIngresarButtonActionPerformed
-
         jIngresarButton.addActionListener(e -> EmployeeController.bbdd.ingresarEmpleado());
 
     }//GEN-LAST:event_jIngresarButtonActionPerformed
